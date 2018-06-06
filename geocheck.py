@@ -45,7 +45,6 @@ def addressInNetwork(ip, net):
 def get_info(ip):
     for ipv4 in ipv4s:
         if addressInNetwork(ip, ipv4[0]):
-            print ipv4
             ret = dict(zip(ipv4_keys, ipv4))
             ret['registered_country'] = dict(zip(
                 country_keys,
