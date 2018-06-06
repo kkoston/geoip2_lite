@@ -23,15 +23,6 @@ country_keys = [
     "is_in_european_union"
 ]
 
-eu_countries = (
-        'EU', 'AD', 'AL', 'AT', 'BA', 'BE', 'BG', 'BY', 
-        'CH', 'CS', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 
-        'FO', 'FR', 'FX', 'GB', 'GI', 'GR', 'HR', 'HU', 
-        'IE', 'IS', 'IT', 'LI', 'LT', 'LU', 'LV', 'MC', 
-        'MD', 'MK', 'MT', 'NL', 'NO', 'PL', 'PT', 'RO', 
-        'SE', 'SI', 'SJ', 'SK', 'SM', 'UA', 'VA'
-)
-
 countries = {}
 with open(F_COUNTRIES) as f:
     reader = csv.reader(f)        
